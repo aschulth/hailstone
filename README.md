@@ -15,7 +15,11 @@ Examples:
   $ hailstone 7
   // Output: 7 22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1
 
+  Calculate the length of the hailstone sequence for 7.
+  $ hailstone -l 7
+  // Output: 17
+
 Error codes:
   2 Number too large.
-  3 Divergent sequence, congratulations to your Fields medal!
+  3 Divergent sequence! // not implemented
 ```
