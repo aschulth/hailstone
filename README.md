@@ -9,7 +9,7 @@ to `1` (cf. [Collatz conjecture](https://en.wikipedia.org/wiki/Collatz_conjectur
 
 DISCLAIMERS:
   - The script is not intended for research but as an exercise in Go.
-  - Beware of large numbers! The will cause infinite loops.
+  - Beware of large numbers! They will cause infinite loops.
 
 ## Usage
 ```
