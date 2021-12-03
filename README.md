@@ -6,9 +6,7 @@ hailstone sequence is computed as follows: if `n` is even, the next number is
 and stops before the loop. It has been conjectured by Lothar Collatz and others
 that every positive number falls through to `1` (cf. [Collatz' conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture)).
 
-DISCLAIMER: All positive integers up to many many trillions have already been
-tested by mathematicians. The script is not intended for research but as an
-exercise in Go.
+DISCLAIMER: The script is not intended for research but as an exercise in Go.
 
 ## hailstone --help
 ```
