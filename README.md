@@ -2,13 +2,16 @@
 
 The tool calculates the hailstone sequence for a given positive number `n`. The
 hailstone sequence is computed as follows: if `n` is even, the next number is
-`n/2` else it is `3n+1`. If the sequence reaches `1` it enters a loop `1 4 2 1`
-and stops before the loop. It has been conjectured by Lothar Collatz and others
-that every positive number falls through to `1` (cf. [Collatz' conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture)).
+`n/2` else it is `3n+1`. If the sequence reaches `1` the program stops as it
+would otherwise enter an infinte loop `1 4 2 1`. It has been conjectured by
+Lothar Collatz and others that every positive integer eventually falls through
+to `1` (cf. [Collatz conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture)).
 
-DISCLAIMER: The script is not intended for research but as an exercise in Go.
+DISCLAIMERS:
+  - The script is not intended for research but as an exercise in Go.
+  - Beware of large numbers! The will cause infinite loops.
 
-## hailstone --help
+## Usage
 ```
 Usage: hailstone [-l|--length] <positive_number>
 
