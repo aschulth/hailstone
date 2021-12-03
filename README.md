@@ -30,6 +30,5 @@ Examples:
   // Output: 17
 
 Error codes:
-  2 Number too large.
-  3 Divergent sequence. Congratulations to your Fields medal!
+  2 Divergent sequence. Congratulations to your Fields medal!
 ```
