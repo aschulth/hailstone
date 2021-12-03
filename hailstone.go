@@ -27,21 +27,19 @@ func main() {
 	fmt.Println()
 }
 
-func hailstone(i int) {
-	fmt.Printf("%d ", i)
+func hailstone(n int) {
+	fmt.Printf("%d ", n)
 
-	if i == 1 {
+	if n == 1 {
 		return
 	}
 
-	var n int
-	if i%2 != 0 {
-		n = 3*i + 1
-	} else {
-		n = i / 2
+	if n%2 != 0 {
+		n = 3*n + 1
+		fmt.Printf("%d ", n)
 	}
 
-	hailstone(n)
+	hailstone(n / 2)
 }
 
 func logf(m string) {
