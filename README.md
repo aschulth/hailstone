@@ -12,9 +12,7 @@ exercise in Go.
 
 ## hailstone --help
 ```
-Usage:
-  hailstone --help
-  hailstone [-l|--length] <positive_number>
+Usage: hailstone [-l|--length] <positive_number>
 
 Calculate the hailstone sequence for a given positive number.
 
