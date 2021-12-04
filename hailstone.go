@@ -15,7 +15,7 @@ func main() {
 	}
 
 	// Check if os.Args[1] is a positive integer > 0
-	var n int
+	var n uint64
 	_, err := fmt.Sscanf(os.Args[1], "%d", &n)
 	if err != nil || n <= 0 {
 		logf("First argument must be a positive integer > 0!")
@@ -27,7 +27,7 @@ func main() {
 	fmt.Println()
 }
 
-func hailstone(n int) {
+func hailstone(n uint64) {
 	fmt.Printf("%d ", n)
 
 	if n == 1 {
