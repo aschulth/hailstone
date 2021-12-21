@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"time"
 )
 
 const script = "hailstone"
@@ -21,10 +22,11 @@ func main() {
 		logf("First argument must be a positive integer > 0!")
 	}
 
+	start := time.Now()
 	hailstone(n)
 
 	// Print a newline when we are done
-	fmt.Println()
+	fmt.Printf("[T: %d]\n", time.Since(start).Nanoseconds())
 }
 
 func hailstone(n uint64) {
